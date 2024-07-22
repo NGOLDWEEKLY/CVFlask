@@ -1,5 +1,6 @@
 # About
-This is a 3-day mini project about PCB defect detection.
+This is a 3-day mini project about PCB defect detection. Interested to see how the model is built?
+Check-out Colab Repo: https://colab.research.google.com/drive/1kVGHITR9MkLj-bpmzZgEwAMfdfNbH1mV.
 
 # Installation
 ## Step 1: Pull this repository
