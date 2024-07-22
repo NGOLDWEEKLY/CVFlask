@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - yolo_app_user_data:/files
+      - yolo_app_uploads_data:/uploads
+    container_name: yolo_app
+
+volumes:
+  yolo_app_user_data:
+  yolo_app_uploads_data:

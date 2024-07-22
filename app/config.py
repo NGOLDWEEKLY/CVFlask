@@ -1,0 +1,15 @@
+import os
+
+
+UPLOAD_FOLDER = '../uploads'
+USER_FOLDER = '../files'
+LARGE_MODEL = 'gpt-4o'
+SMALL_MODEL = 'gpt-3.5-turbo'
+SECRET_KEY = os.environ.get("FLASK_SECRET_KEY")
+
+class Config:
+    UPLOAD_FOLDER = UPLOAD_FOLDER
+    USER_FOLDER = USER_FOLDER
+    LARGE_MODEL = LARGE_MODEL
+    SMALL_MODEL = SMALL_MODEL
+    SECRET_KEY = SECRET_KEY
